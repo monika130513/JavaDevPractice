@@ -5,10 +5,7 @@ public class MyThread extends Thread{
 			System.out.println(" tread class");
 		}
 	}
-	public void start() {
-		System.out.println("OverRide () ");
-		
-	}
+	
 	public MyThread() {
 		// TODO Auto-generated constructor stub
 	}
