@@ -9,8 +9,10 @@ public class ThreadDemo {
 		MyThread mt = new MyThread();
 		mt.start();
 		for(int i = 0; i < 10; i++) {
-			System.out.println("main Thread");
+			System.out.println(Thread.currentThread().getName());
 		}
-		mt.start();
+		//mt.start();
+		//MyRunnableThread mrt = new MyRunnableThread();
+		
 	}
 }
